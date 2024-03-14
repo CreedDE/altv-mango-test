@@ -1,6 +1,7 @@
 import { Module } from '@altv-mango/client';
+import { AuthController } from './auth.controller';
 
 @Module({
-    controllers: [],
+    controllers: [AuthController],
 })
 export class AuthModule {}
