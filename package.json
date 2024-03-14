@@ -6,7 +6,7 @@
         "server:dev": "npx altv-pkg dev",
         "server:rc": "npx altv-pkg rc",
         "server:rel": "npx altv-pkg release",
-        "start": "altv-server",
+        "start": "./altv-server",
         "typecheck": "turbo run typecheck --filter=@altv-resource/*"
     },
     "devDependencies": {

@@ -1,9 +1,11 @@
 <script lang="ts">
     import { onMount } from "svelte";
 
-  onMount(() => {
+  onMount(async () => {
     window.mango.event.emitPlayer("Auth:Something");
   })
 </script>
 
-<p>Root page</p>
+<div>
+  <p>Auth Page from SvelteKit</p>
+</div>
